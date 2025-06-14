@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Gerar corações flutuantes a cada X milissegundos
-    setInterval(createFloatingHeart, 1500);
+    setInterval(createFloatingHeart, 5000);
     console.log('Intervalo para corações flutuantes iniciado.'); // Log 3
 
     // Efeito de "chuva de corações" ao carregar a página
@@ -229,13 +229,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     revealButton.style.display = 'none'; // Esconde completamente após a transição
                     revealButton.remove(); // Remove o botão do DOM (opcional, mas limpa)
                     console.log('Botão de revelação removido.');
-                }, 500); // Tempo da transição
+                }, 2500); // Tempo da transição
 
                 // Esconder o pop-up automaticamente após 10 segundos (para debug)
                 setTimeout(() => {
                     lovePopup.classList.remove('show');
                     console.log('Pop-up de amor escondido automaticamente.'); // Log 11
-                }, 10000); 
+                }, 15000); 
                 
             } else {
                 console.log('Botão clicado, mensagem já visível. Sem ação para o botão.'); // Log 12
