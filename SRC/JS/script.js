@@ -208,7 +208,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (hiddenMessage.classList.contains('hidden')) {
                 hiddenMessage.classList.remove('hidden');
-                revealButton.textContent = 'Que lindo! ❤️';
+                revealButton.textContent = 'EU TE AMOOO! ❤️';
                 burstHearts(50);
                 console.log('Mensagem oculta revelada e burstHearts acionado.'); // Log 9
 
